@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sneak</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="navTop">
+        <div class="navItem">
+          <img style="cursor: pointer;" src="/img/logo.png" width="150px" alt="" />
+        </div>
+
+        <div class="navItem">
+          <div class="search">
+            <input class="searchInput" type="text" placeholder="Search..." />
+            <button class="searchButton" href="#">
+              <img
+                width="20px"
+                src="/img/search.png"
+                alt=""
+                class="searchImg"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="navItem">
+          <span class="limitedOffer">Limited Offer!</span>
+        </div>
+      </div>
+      <div class="navBottom">
+        <h3 class="menuItem">Sneakers</h3>
+        <h3 class="menuItem">Running</h3>
+        <h3 class="menuItem">Walking</h3>
+        <h3 class="menuItem">Training & Gym</h3>
+        <h3 class="menuItem">Slides</h3>
+      </div>
+    </nav>
+    <div class="slider">
+      <div class="sliderWrapper">
+        <div class="sliderItem">
+          <img
+            src="/img/images/CA Pro 'Sport for the Fanbase' Unisex Sneakers.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            CA Pro <br />'Sport for the Fanbase'<br />
+            Unisex Sneakers
+          </h1>
+          <h2 class="sliderPrice">₹10,999</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+
+        <div class="sliderItem">
+          <img
+            src="/img/images/Fast-R Nitro Elite Men's Running Shoes.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            Fast-R Nitro Elite Men's <br />Running Shoes
+          </h1>
+          <h2 class="sliderPrice">₹18,399</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+
+        <div class="sliderItem">
+          <img
+            src="/img/images/SOFTRIDE Enzo Evo Unisex Running Shoes.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            SOFTRIDE Enzo Evo Unisex <br />Walking Shoes
+          </h1>
+          <h2 class="sliderPrice">₹13,999</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+
+        <div class="sliderItem">
+          <img
+            src="/img/images/PWR NITRO SQD Men's Training Shoes.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">PWR NITRO SQD Men's <br />Training Shoes</h1>
+          <h2 class="sliderPrice">₹12,999</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+
+        <div class="sliderItem">
+          <img
+            src="/img/images/PUMA x SPONGEBOB RS-Slide Unisex Slides.png"
+            alt=""
+            class="sliderImg"
+          />
+          <div class="sliderBg"></div>
+          <h1
+            style="
+              position: absolute;
+              top: 0%;
+              right: 10%;
+              font-size: 35px;
+              font-weight: 900;
+              color: white;
+              text-align: center;
+            "
+            class="sliderTitle"
+          >
+            PUMA x SPONGEBOB <br />
+            RS-Slide <br />
+            Unisex Slides
+          </h1>
+          <h2
+            class="sliderPrice"
+            style="
+              position: absolute;
+              top: 0%;
+              left: 4%;
+              font-size: 35px;
+              font-weight: 300;
+              color: rgb(124, 115, 80);
+              text-align: center;
+              z-index: 1;
+            "
+          >
+            ₹6,499
+          </h2>
+          <a href="#product">
+            <button
+              style="
+                position: absolute;
+                top: 25%;
+                right: 11%;
+                font-size: 30px;
+                font-weight: 900;
+                color: white;
+                background-color: black;
+                border: 1px solid gray;
+                cursor: pointer;
+                z-index: 1;
+              "
+              class="buyButton"
+            >
+              BUY NOW!
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="features" style="cursor: pointer">
+      <div class="feature">
+        <img class="featureIcon" src="/img/shipping.png" alt="" />
+        <span class="featureTitle">FREE SHIPPING</span>
+        <span class="featuredDecs">Free worldwide shipping in all orders.</span>
+      </div>
+      <div class="feature">
+        <img class="featureIcon" src="/img/return.png" alt="" />
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <span class="featuredDecs"
+          >No question return and refund in 14 days.</span
+        >
+      </div>
+      <div class="feature">
+        <img class="featureIcon" src="/img/gift.png" alt="" />
+        <span class="featureTitle">GIFT CARD</span>
+        <span class="featuredDecs"
+          >Buy gift cards and use coupon codes easily.</span
+        >
+      </div>
+      <div class="feature">
+        <img class="featureIcon" src="/img/contact.png" alt="" />
+        <span class="featureTitle">Contact us!</span>
+        <span class="featuredDecs"
+          >Keep in touch via email and support system.</span
+        >
+      </div>
+    </div>
+    
+    <div class="product" id="product">
+      <img
+        src="/img/images/CA Pro 'Sport for the Fanbase' Unisex Sneakers.png"
+        alt=""
+        class="productImg"
+      />
+      <div class="productDetails">
+        <h1 class="productTitle">
+          CA Pro <br />'Sport for the Fanbase'<br />
+          Unisex Sneakers
+        </h1>
+        <h2 class="productPrice">₹10,999</h2>
+        <!-- <p class="productDesc">
+          Our CA Pro takes inspiration from the original California we released
+          back in the ‘80s.
+        </p> -->
+    <!-- <div class="colors">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div> -->
+        <div class="sizes">
+          <div class="size">9</div>
+          <div class="size">10</div>
+          <div class="size">11</div>
+        </div>
+        <button class="productButton">BUY NOW!</button>
+      </div>
+    </div>
+
+    <div class="payment">
+      <h1 class="payTitle">Personal Information</h1>
+      <label>Name and Surname</label>
+      <input type="text" placeholder="John Doe" class="payInput">
+      <label>Phone Number</label>
+      <input type="text" placeholder="+1 234 5678" class="payInput">
+      <label>Address</label>
+      <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+      <h1 class="payTitle">Card Information</h1>
+      <div class="cardIcons">
+          <img src="./img/images/visa.png" width="40" alt="" class="cardIcon">
+          <img src="./img/images/mastercard.png" alt="" width="40" class="cardIcon">
+      </div>
+      <input type="password" class="payInput" placeholder="Card Number">
+      <div class="cardInfo">
+          <input type="text" placeholder="mm" class="payInput sm">
+          <input type="text" placeholder="yyyy" class="payInput sm">
+          <input type="text" placeholder="cvv" class="payInput sm">
+      </div>
+      <button class="payButton">Checkout!</button>
+      <span class="close">X</span>
+  </div>
+</div>
+
+  <div class="gallery">
+
+    <div class="galleryItem">
+      <h1 class="galleryTitle">DEVIATE NITRO 2</h1>
+      <img src="/img/images/gallery 1.png" alt="" class="galleryImg">
+    </div>
+
+    <div class="galleryItem">
+      <h1 class="galleryTitle">FOREVERRUN</h1>
+      <img src="/img/images/gallery 2.png" alt="" class="galleryImg">
+    </div>
+
+  </div>
+
+  <h1 class="nsTitle">Worn by <span class="dua">Dua Lipa.</span></h1>
+  <div class="newSeason">
+    
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/564x/f2/82/b4/f282b4c2d275150a17099e96bde382f9.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 1</div>
+    </div>
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/736x/47/c2/bd/47c2bdd302b6a574149777d06a2d92ae.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 2</div>
+    </div>
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/564x/b0/e1/5e/b0e15edbd08f119dcc0dcea3f266f497.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 3</div>
+    </div>
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/736x/fb/05/e9/fb05e9756989d7dd2cb3da08ea808ae9.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 4</div>
+    </div>
+  </div>
+  <div class="duaLipa">
+    <img src="/img/dualipa.png" alt="" class="duaImg">
+    <h1 class="duaText">PALERMO</h1>
+    <div class="duaPara">RETURN OF A CLASSIC</div>
+    <a href="#nav"><button class="duaShop">SHOP NOW</button></a>
+  </div>
+  <br>
+
+  <div class="video2">
+    <div class="videoItem2">
+      <video src="https://cdn.sanity.io/files/qa41whrn/staging/2b29da1e26b6bca12f766be12815a95e5088240c.mp4" autoplay loop muted class="vdo"></video>
+      <h1 class="videoTitle2">MB.03 CHINO HILLS</h1>
+      <div class="videoDesc2">BY LAMELO BALL</div>
+      <a href="#nav"><button class="videoButton2">SHOP NOW</button></a>
+    </div>
+  </div><br><br>
+
+  <div class="shoes">
+    <img src="https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EIDN%7Eothers%7EKOP%7EFull+Bleed+Hero%7EPUMA+x+BEAVIS+AND+BUTTHEAD+PUMA-180+Sneakers_BLACK_ECOMM_1536X1536.png/fmt/jpg/fmt/png" alt="" class="shoeImg">
+    <img src="https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EIDN%7Eothers%7EKOP%7EFull+Bleed+Hero%7EID-BEAVIS%26BUTTHEAD-AH23-trendinginline.png/fmt/jpg/fmt/png" alt="" class="shoeImg">
+    <img src="https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EIDN%7Eothers%7EKOP%7EFull+Bleed+Hero%7EPUMA+x+BEAVIS+AND+BUTTHEAD+PUMA-180+Sneakers_ECOMM_1536X1536.png/fmt/jpg/fmt/png" alt="" class="shoeImg">
+  </div>
+  <div class="shoeDetails">
+    <div class="shoe1">
+      <h1 class="shoeTitle">PUMA X BEAVIS & BUTTHEAD</h1>
+      <p class="shoeDesc">PUMA 180 Sneakers</p>
+      <button class="shoeButton">SHOP NOW</button>
+    </div>
+    <div class="shoe2">
+      <h1 class="shoeTitle">PUMA X BEAVIS & BUTTHEAD</h1>
+      <p class="shoeDesc">The Great Cornholio</p>
+      <button class="shoeButton">SHOP NOW</button>
+    </div>
+    <div class="shoe3">
+      <h1 class="shoeTitle">PUMA X BEAVIS & BUTTHEAD</h1>
+      <p class="shoeDesc">PUMA 180 Sneakers</p>
+      <button class="shoeButton">SHOP NOW</button>
+    </div>
+  </div><br><br>
+
+  <h1 class="nsTitle">Worn by <span class="dua">Selena.</span></h1>
+  <div class="newSeason">
+    
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/564x/b0/83/6e/b0836e9af84ec1bf91af9c232a0540a4.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 1</div>
+    </div>
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/564x/fc/46/c2/fc46c205bd65c0fce020f00b72376b96.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 2</div>
+    </div>
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/564x/da/6f/ca/da6fcaa4e9bfc428b283136ac8e212cf.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 3</div>
+    </div>
+    <div class="nsItem">
+      <img src="https://i.pinimg.com/564x/76/de/48/76de484025552eed7906e9068d7f9517.jpg" alt="" class="nsImg">
+      <div class="nsText">Description 4</div>
+    </div>
+  </div><br>
+  <div class="duaLipa">
+    <img src="/img/selena.jpg" alt="" class="duaImg">
+    <h1 class="selenaText">SELENA X PUMA</h1>
+    <a href="#nav"> <button class="duaShop">SHOP NOW</button> </a>
+  </div>
+
+  <div class="video">
+    <div class="videoItem">
+      <video src="https://videos.puma.net/videos/fn/%7Eregional%7EIDN%7Eothers%7ECREEPER%7E23AW_SP_Fenty-Creeper_Rihanna_1440x500_15s.mp4" autoplay loop muted class="vdo"></video>
+    </div>
+  </div>
+  <div class="videoDetails">
+    <h1 class="videoTitle">THE CREEPER PHATTY</h1>
+    <div class="videoDesc">BY RIHANNA</div>
+    <a href="#nav"><button class="videoButton">SHOP NOW</button></a>
+  </div>
+  <br>
+  <footer>
+    <div class="footerLeft">
+
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">About US</h1>
+        <ul class="fmenuList">
+          <li class="flistItem">Company</li>
+          <li class="flistItem">Contact</li>
+          <li class="flistItem">Careers</li>
+          <li class="flistItem">Affiliates</li>
+          <li class="flistItem">Stores</li>
+        </ul>
+      </div>
+
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Useful Links</h1>
+        <ul class="fmenuList">
+          <li class="flistItem">Support</li>
+          <li class="flistItem">Refund</li>
+          <li class="flistItem">FAQ</li>
+          <li class="flistItem">Feedback</li>
+          <li class="flistItem">Stories</li>
+        </ul>
+      </div>
+
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Products</h1>
+        <ul class="fmenuList">
+          <li class="flistItem">Sneakers</li>
+          <li class="flistItem">Running</li>
+          <li class="flistItem">Walking</li>
+          <li class="flistItem">Training & Gym</li>
+          <li class="flistItem">Slides</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footerRight">
+      <div class="frightMenu">
+        <h1 class="fmenuTitle">Subscribe to our newsletter</h1>
+        <div class="fMail">
+          <input type="text" placeholder="your@email.com" class="fInput">
+          <button class="fButton"><img class="fImg" src="/img/images/arrow.png" alt=""></button>
+        </div>
+      </div>
+      <div class="frightMenu">
+        <h1 class="fmenuTitle">Follow Us!</h1>
+        <div class="fIcons">
+          <img src="/img/images/facebook.png" alt="" class="fIcon">
+          <img src="/img/images/twitter.png" alt="" class="fIcon">
+          <img src="/img/images/youtube.png" alt="" class="fIcon">
+          <img src="/img/images/instagram.png" alt="" class="fIcon">
+          <img src="/img/images/pinterest.png" alt="" class="fIcon">
+        </div>
+      </div>
+      <div class="frightMenu">
+        <span class="copyright">@rishi dev. All rights reserved. 2023.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+  </body>
+</html>
